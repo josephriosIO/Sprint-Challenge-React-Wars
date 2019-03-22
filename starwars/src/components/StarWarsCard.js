@@ -17,15 +17,7 @@ class StarWarsCard extends Component {
   }
 
   render() {
-    const {
-      birth_year,
-      created,
-      edited,
-      eye_color,
-      homeworld,
-      name,
-      gender
-    } = this.props.characters;
+    const { birth_year, name } = this.props.characters;
     return (
       <div className="card-container">
         <div
