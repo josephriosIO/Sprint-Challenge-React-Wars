@@ -39,18 +39,18 @@
 
 .front {
   color: #fff;
-  background: #2196f3;
+  background-image: url("./img/card-background.jpeg");
+  background-size: cover;
 }
 
 .back {
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: absolute;
-
-  color: #2196f3;
-  background: #fff;
+  color: black;
+  background-image: url("./img/back-card-background.png");
+  background-size: cover;
 }
 
 .hide {

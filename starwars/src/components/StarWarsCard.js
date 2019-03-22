@@ -38,7 +38,7 @@ class StarWarsCard extends Component {
         <div
           onClick={this.handleClick}
           className={`hide card ${this.state.isFlipped ? "show back" : null}`}
-        >{`${name} was born ${birth_year}.`}</div>
+        >{`${name} was born on the year ${birth_year}.`}</div>
       </div>
     );
   }
